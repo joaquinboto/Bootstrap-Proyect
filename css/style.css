@@ -1,0 +1,98 @@
+/*===============Propiedades Globales================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+
+/*===================MENU==========================*/
+
+#menu {
+    background-color: #000;
+}
+
+#menu a, button{
+     font-size: 18px ;
+     font-weight: 600;
+    
+ }
+
+ #menu a{
+     color:white;
+     
+ }
+
+.carousel-inner {
+    max-height:40rem ;
+}
+
+
+#section_ {
+    background-color: #1B2A4E;
+}
+
+
+footer {
+    background: #000;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+
+
+
+@media (max-width:1200px){
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+  
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+   }
+   .wrapper-local {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+ 
+}
+
+
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width:100% 
+    }
+    #servicios-fila-1 {
+        width:100% 
+    }
+
+    .icono-wrap{
+        flex-wrap:wrap ;
+        justify-content: center ;
+        text-align: center;
+    }
+
+}
+
+
+#formulario {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+}
+
+.sectionForm {
+    background-image: url(/img/Fondo.svg);
+}
